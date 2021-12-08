@@ -31,6 +31,7 @@ def adaptive_image_transformer():
     AIT = AIT.cuda() # use cuda
 
     # >> usage of AIT
+    # Note that x_query should be zero-padded to size 8*8 
     out = AIT(x_props=props_feat, x_query=non_qry) # [batch_size*num_props, c=1024, h=8, w=8]
 
     # >> following lines show the structure of AIT as well as the input and output shapes
