@@ -1,0 +1,14 @@
+cython
+cffi
+scipy
+msgpack
+easydict
+matplotlib
+pyyaml
+tensorboardX
+pandas
+pillow
+opencv-python
+terminaltables
+termcolor
+imgaug
